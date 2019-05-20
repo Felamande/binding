@@ -18,7 +18,7 @@ package binding
 import (
 	"mime/multipart"
 
-	"github.com/lunny/tango"
+	"gitea.com/lunny/tango"
 )
 
 // These types are mostly contrived examples, but they're used

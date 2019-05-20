@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunny/tango"
+	"gitea.com/lunny/tango"
 )
 
 // NOTE: last sync 1928ed2 on Aug 26, 2014.

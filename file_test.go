@@ -22,7 +22,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lunny/tango"
+	"gitea.com/lunny/tango"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
