@@ -1,18 +1,19 @@
-binding [![CircleCI](https://circleci.com/gh/tango-contrib/binding/tree/master.svg?style=svg)](https://circleci.com/gh/tango-contrib/binding/tree/master) [![](http://gocover.io/_badge/github.com/tango-contrib/binding)](http://gocover.io/github.com/tango-contrib/binding)
+binding [![Build Status](https://drone.gitea.com/api/badges/tango/binding/status.svg)](https://drone.gitea.com/tango/binding)
+ [![](http://gocover.io/_badge/gitea.com/tango/binding)](http://gocover.io/gitea.com/tango/binding)
 =======
 
 Middlware binding provides request data binding and validation for [Tango](https://gitea.com/lunny/tango).
 
 ## Installation
 
-	go get github.com/tango-contrib/binding
+	go get gitea.com/tango/binding
 
 ## Example
 
 ```Go
 import (
     "gitea.com/lunny/tango"
-    "github.com/tango-contrib/binding"
+    "gitea.com/tango/binding"
 )
 
 type Action struct {
@@ -45,7 +46,7 @@ Visit `/?id=1&name=2` on your browser and you will find output
 
 ## Getting Help
 
-- [API Reference](https://gowalker.org/github.com/tango-contrib/binding)
+- [API Reference](https://godoc.org/gitea.com/tango/binding)
 
 ## Credits
 
